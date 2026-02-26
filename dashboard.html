@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean Digital Twin | Vision Labs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Orbitron:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <div class="particle-layer" id="particle-layer"></div>
+
+    <header class="site-header glass">
+      <a class="logo" href="index.html"><span class="logo-mark"></span><span>Vision Labs</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="technology.html">Technology</a>
+        <a href="applications.html">Applications</a>
+        <a href="dashboard.html" class="active">Live Dashboard</a>
+        <a href="about.html">About</a>
+      </nav>
+      <button id="sound-toggle" class="sound-btn" aria-pressed="false">🔊 Ocean Ambience</button>
+    </header>
+
+    <main>
+      <section class="section reveal page-intro">
+        <p class="kicker">Ocean Digital Twin</p>
+        <h1>Control-room intelligence for real-time marine mapping.</h1>
+      </section>
+
+      <section class="section reveal dashboard-layout">
+        <div class="glass dashboard-map">
+          <div class="heat-layer"></div>
+          <div class="depth-layer"></div>
+          <div class="sonar-ring ring-a"></div>
+          <div class="sonar-ring ring-b"></div>
+          <div class="sonar-sweep"></div>
+          <div class="coord-tag">11.230°N · 74.102°E</div>
+        </div>
+
+        <aside class="dashboard-cards">
+          <article class="glass metric-card">
+            <p>Depth</p>
+            <h3>3,842 m</h3>
+          </article>
+          <article class="glass metric-card">
+            <p>Temperature</p>
+            <h3>2.8°C</h3>
+          </article>
+          <article class="glass metric-card">
+            <p>Pressure</p>
+            <h3>38.9 MPa</h3>
+          </article>
+          <article class="glass metric-card">
+            <p>Coordinates</p>
+            <h3>Sector SM-07</h3>
+          </article>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer"><p>© 2026 Vision Labs · Live Mapping Dashboard</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

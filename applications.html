@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Applications | Vision Labs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Orbitron:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <div class="particle-layer" id="particle-layer"></div>
+
+    <header class="site-header glass">
+      <a class="logo" href="index.html"><span class="logo-mark"></span><span>Vision Labs</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="technology.html">Technology</a>
+        <a href="applications.html" class="active">Applications</a>
+        <a href="dashboard.html">Live Dashboard</a>
+        <a href="about.html">About</a>
+      </nav>
+      <button id="sound-toggle" class="sound-btn" aria-pressed="false">🔊 Ocean Ambience</button>
+    </header>
+
+    <main>
+      <section class="section reveal page-intro">
+        <p class="kicker">Transforming Marine Intelligence</p>
+        <h1>From data streams to high-impact ocean decisions.</h1>
+      </section>
+
+      <section class="section reveal case-grid">
+        <article class="glass case-card">
+          <div class="image-placeholder">Climate Layer</div>
+          <h3>Climate Change Monitoring</h3>
+          <p>Track temperature drift, salinity shifts, and sea-level-linked seabed transitions over time.</p>
+        </article>
+        <article class="glass case-card">
+          <div class="image-placeholder">Coral Health</div>
+          <h3>Coral Reef & Biodiversity Tracking</h3>
+          <p>AI vision identifies reef stress zones and biodiversity movement for restoration planning.</p>
+        </article>
+        <article class="glass case-card">
+          <div class="image-placeholder">Infra Scan</div>
+          <h3>Cable & Infrastructure Mapping</h3>
+          <p>Survey subsea cables, pipelines, and offshore assets with high-fidelity geo-referenced models.</p>
+        </article>
+        <article class="glass case-card">
+          <div class="image-placeholder">Risk Forecast</div>
+          <h3>Coastal Disaster Risk Prediction</h3>
+          <p>Predict erosion, storm surge amplification, and seabed instability for coastal preparedness.</p>
+        </article>
+        <article class="glass case-card">
+          <div class="image-placeholder">Nav Ops</div>
+          <h3>Naval & Maritime Navigation Support</h3>
+          <p>Deliver operationally secure route intelligence with dynamic hazard and depth awareness.</p>
+        </article>
+      </section>
+
+      <section class="section reveal">
+        <h2>Interactive Map Mockup</h2>
+        <div class="glass interactive-map">
+          <div class="map-grid"></div>
+          <div class="map-node n1"></div>
+          <div class="map-node n2"></div>
+          <div class="map-node n3"></div>
+          <div class="map-route"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><p>© 2026 Vision Labs · Application Domains</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

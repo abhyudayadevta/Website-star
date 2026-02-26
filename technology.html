@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technology | Vision Labs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Orbitron:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <div class="particle-layer" id="particle-layer"></div>
+
+    <header class="site-header glass">
+      <a class="logo" href="index.html"><span class="logo-mark"></span><span>Vision Labs</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="technology.html" class="active">Technology</a>
+        <a href="applications.html">Applications</a>
+        <a href="dashboard.html">Live Dashboard</a>
+        <a href="about.html">About</a>
+      </nav>
+      <button id="sound-toggle" class="sound-btn" aria-pressed="false">🔊 Ocean Ambience</button>
+    </header>
+
+    <main>
+      <section class="section reveal page-intro">
+        <p class="kicker">Our Ocean Intelligence Systems</p>
+        <h1>Research-grade marine sensing architecture.</h1>
+      </section>
+
+      <section class="section feature-grid reveal">
+        <article class="glass feature-card">
+          <h3>AI-based Seabed Data Analysis</h3>
+          <p>Machine learning models classify sediment, detect anomalies, and predict morphological change patterns.</p>
+        </article>
+        <article class="glass feature-card">
+          <h3>Sonar Imaging & Bathymetric Mapping</h3>
+          <p>High-resolution multibeam sonar pipelines produce centimeter-level depth reconstructions and terrain models.</p>
+        </article>
+        <article class="glass feature-card">
+          <h3>Autonomous Underwater Vehicles</h3>
+          <p>Stingray-inspired AUV fleets execute adaptive missions with low-drag mobility and autonomous path planning.</p>
+        </article>
+        <article class="glass feature-card">
+          <h3>Satellite + Marine Sensor Fusion</h3>
+          <p>Integrated telemetry from satellites, buoys, gliders, and subsea nodes into a unified marine intelligence layer.</p>
+        </article>
+      </section>
+
+      <section class="section reveal">
+        <h2>Real-time Data Processing Pipeline</h2>
+        <div class="glass pipeline">
+          <div>Sensor Ingestion</div>
+          <span>→</span>
+          <div>Stream Validation</div>
+          <span>→</span>
+          <div>AI Enrichment</div>
+          <span>→</span>
+          <div>Ocean Digital Twin</div>
+          <span>→</span>
+          <div>Actionable Insights API</div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <h2>Dashboard UI Mockups</h2>
+        <div class="mockup-grid">
+          <div class="glass mockup">Terrain Classifier Heat Layer</div>
+          <div class="glass mockup">Anomaly Detection Timeline</div>
+          <div class="glass mockup">AUV Mission Command Console</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><p>© 2026 Vision Labs · Core Technology</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
